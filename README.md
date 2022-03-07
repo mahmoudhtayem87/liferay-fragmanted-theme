@@ -11,4 +11,7 @@ Steps:
 4. Use Liferay Tool Kit to generate a fragment collection
 5. Copy your compiled css to your fragment collection -> resources
 6. Create a fragment to add the style links to your page, and you can referance the files from your compiled styles which you have just copied by using [resource:<filename>]
+
+## Theme Screenshot
+![This is an image](https://github.com/mahmoudhtayem87/liferay-fragmanted-theme/releases/download/V1/Home.-.Life.Insurance.png)
  
