@@ -1,0 +1,38 @@
+{
+    "fieldSets": [{
+        "fields": [
+					{
+                "name": "icon",
+                "label": "Font Awesome Icon",
+                "description": "",
+                "type": "text",
+                "typeOptions": {
+                    "placeholder": ""
+                },
+                "dataType": "string",
+                "defaultValue": "fa fa-wallet"
+            },
+					{
+                "name": "category",
+                "label": "Category ID",
+                "description": "",
+                "type": "text",
+                "typeOptions": {
+                    "placeholder": ""
+                },
+                "dataType": "string",
+                "defaultValue": "95085"
+            },{
+                "name": "resultPageURL",
+                "label": "Result Page URL",
+                "description": "",
+                "type": "text",
+                "typeOptions": {
+                    "placeholder": ""
+                },
+                "dataType": "string",
+                "defaultValue": "/search-services?"
+            }
+        ]
+    }]
+}

@@ -1,0 +1,50 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "title",
+                    "label": "Popup Title",
+                    "description": "button-text",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "Placeholder"
+                    },
+                    "dataType": "string",
+                    "defaultValue": "Popup"
+                },
+							{
+                    "name": "url",
+                    "label": "Popup URL",
+                    "description": "button-text",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "Placeholder"
+                    },
+                    "dataType": "string",
+                    "defaultValue": "Popup"
+                },{
+                    "name": "width",
+                    "label": "Popup Width",
+                    "description": "button-text",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "Placeholder"
+                    },
+                    "dataType": "string",
+                    "defaultValue": "50"
+                },{
+                    "name": "height",
+                    "label": "Popup Height",
+                    "description": "button-text",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "Placeholder"
+                    },
+                    "dataType": "string",
+                    "defaultValue": "50"
+                }
+            ]
+        }
+    ]
+}

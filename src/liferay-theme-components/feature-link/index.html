@@ -1,0 +1,17 @@
+[#assign color_text = "" /]
+[#assign color_bg = "" /]
+
+[#if configuration.selected]
+[#assign color_text = "text-light" /]
+[#assign color_bg = "bg-primary" /]
+[/#if]
+<div class="feature-item mb-5 mb-lg-0 shadow-lg ${color_bg} ${color_text} hvr-grow w-100 h-100">
+    <div class="feature-icon mb-4">
+        <i class="${color_text} ${configuration.icon}"></i>
+    </div>
+   
+    <h4 class="${color_text} ">
+			
+<a data-lfr-editable-id="header"  data-lfr-editable-type="link" class="mb-3 ${color_text} title">Online Appoinment</a>	</h4>
+   
+</div>

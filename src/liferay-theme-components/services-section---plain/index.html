@@ -1,0 +1,17 @@
+<section class="section service  p-2 ">
+    
+        <div class="drop-zone-services more-information">
+            <lfr-drop-zone></lfr-drop-zone>
+        </div>
+    
+</section>
+
+<script>
+$(document).ready(function(){
+$(".drop-zone-services>div").addClass("autofit-float autofit-padded-no-gutters-x autofit-row");
+});
+	$(".drop-zone-services>div>div").each(function(){
+		$(this).attr("class","");
+	$(this).addClass("autofit-col autofit-col-expand service-col");
+	});
+</script>

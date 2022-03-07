@@ -1,0 +1,29 @@
+<script>
+$(document).ready(function(){
+	if(!document.location.href.includes("edit"))
+{
+	Liferay.Util.openWindow(
+			{
+				dialog: {
+					//cssClass: 'aui-popup-example',
+					destroyOnHide: true,
+					height: vhToPx(${configuration.height}),
+					width: vwToPx(${configuration.width})
+				},
+				dialogIframe: {
+					//bodyCssClass: 'custom-css-class'
+				},
+				title: '${configuration.title}',
+				uri:Liferay.ThemeDisplay.getPortalURL()+"/"+ '${configuration.url}'
+			}
+		);
+}
+else
+{
+	$(".popup-widget").show();
+}
+});
+</script>
+<div class="popup-widget p-4 bg-primary text-light">
+	Please Configure the Popup Title and URL from the configuration panel
+</div>

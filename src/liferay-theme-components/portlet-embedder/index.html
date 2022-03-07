@@ -1,0 +1,11 @@
+[#if configuration.hide]
+<style>
+	.embedder .lfr-tooltip-scope:first-child
+{
+	display:none!important;
+}
+</style>
+[/#if]
+<div class="fragment_817 embedder">
+    [@liferay_portlet["runtime"] portletName="${configuration.portlet}"/]
+</div>

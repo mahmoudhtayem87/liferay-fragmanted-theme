@@ -1,0 +1,21 @@
+.contact-form .lfr-ddm__default-page-header
+{
+	display:none!important;
+}
+.contact-form .multi-step-indicator-label
+{
+	width:165px!important;
+	max-width: fit-content;
+}
+.contact-form .input-group-text
+{
+	height:100%!important;
+}
+.contact-form .lfr-ddm-form-pagination-controls
+{
+	display:flex!important;
+}
+.contact-form .lfr-ddm-form-pagination-controls *
+{
+	margin:auto!important;
+}

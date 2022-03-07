@@ -1,0 +1,23 @@
+{
+    "fieldSets": [{
+        "fields": [{
+                "name": "portlet",
+                "label": "Portlet Class Name",
+                "description": "button-text",
+                "type": "text",
+                "typeOptions": {
+                    "placeholder": "Placeholder"
+                },
+                "dataType": "string",
+                "defaultValue": ""
+            },
+							 {
+                    "name": "hide",
+                    "label": "Hide Portlet Tools",
+                    "type": "checkbox",
+                    "defaultValue": true
+                }
+
+        ]
+    }]
+}

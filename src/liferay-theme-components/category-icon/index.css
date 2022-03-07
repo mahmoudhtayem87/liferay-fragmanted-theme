@@ -1,0 +1,18 @@
+.fragment_4303 {
+}
+.pointer
+{
+	cursor:pointer;
+}
+.category:hover
+{
+	background:var(--secondary);
+}
+.category:hover i
+{
+	color:var(--light)!important;
+}
+.category:hover .card-title
+{
+	color:var(--light)!important;
+}

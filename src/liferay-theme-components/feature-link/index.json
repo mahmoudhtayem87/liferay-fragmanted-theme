@@ -1,0 +1,25 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "icon",
+                    "label": "Icone Name",
+                    "description": "button-text",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "Placeholder"
+                    },
+                    "dataType": "string",
+                    "defaultValue": "icofont-surgeon-alt"
+                },
+							 {
+                    "name": "selected",
+                    "label": "Current Page",
+                    "type": "checkbox",
+                    "defaultValue": false
+                }
+            ]
+        }
+    ]
+}

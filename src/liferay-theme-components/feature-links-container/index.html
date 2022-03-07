@@ -1,0 +1,30 @@
+<section class="feature-links">
+    <div class="container">
+        <div class="row">
+					<div class="col-lg-12 featuers-dropzone">
+            <lfr-drop-zone class="feature-block d-lg-flex">
+            </lfr-drop-zone>
+					</div>
+        </div>
+    </div>
+</section>
+
+<script>
+$(document).ready(function(){
+
+	
+var style = document.createElement('style');
+style.type = 'text/css';
+style.innerHTML = '@media only screen and (min-width: 768px) { .link-class{width: calc(100% /'+
+	$(".featuers-dropzone > div>div").length
+	+')}};';
+document.getElementsByTagName('head')[0].appendChild(style);
+	
+var className = "feature-block autofit-float autofit-row autofit-row-center autofit-padded-no-gutters-x d-flex";
+$(".featuers-dropzone > div").addClass(className);
+$(".featuers-dropzone > div>div").each(function(){
+$(this).attr("class","");
+$(this).addClass("autofit-col autofit-col-expand link-class")
+});
+});
+</script>

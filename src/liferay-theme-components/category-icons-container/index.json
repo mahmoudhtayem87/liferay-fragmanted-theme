@@ -1,0 +1,16 @@
+{
+    "fieldSets": [{
+        "fields": [{
+                "name": "numberOfIcons",
+                "label": "Number of boxes per row",
+                "description": "",
+                "type": "text",
+                "typeOptions": {
+                    "placeholder": ""
+                },
+                "dataType": "string",
+                "defaultValue": "2"
+            }
+        ]
+    }]
+}
