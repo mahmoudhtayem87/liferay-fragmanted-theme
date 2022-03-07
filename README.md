@@ -1,4 +1,4 @@
-# Liferay fragmented Theme 
+# Liferay Fragmented Theme 
 
 This project has been created with generator-liferay-fragments, to demostrate how we can build a Liferay Theme from any bootstrap template.
 
