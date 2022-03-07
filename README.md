@@ -1,12 +1,12 @@
-# Liferay Theme 
+# Liferay fragmented Theme 
 
-This project has been created with [generator-liferay-fragments][1]. You can read
-how to manage this project in the [generator documentation][2].
+This project has been created with generator-liferay-fragments, to demostrate how we can build a Liferay Theme from any bootstrap template.
 
-> ⚠ Some of the generated fragments might not be compatible with every Liferay
-> portal version, please check the [fragment's generator documentation][3] or
-> your Liferay documentation to be sure you can use them.
-
-[1]: https://www.npmjs.com/package/generator-liferay-fragments
-[2]: https://www.npmjs.com/package/generator-liferay-fragments#usage
-[3]: https://www.npmjs.com/package/generator-liferay-fragments#creating-new-fragments
+Steps:
+[1] Develop your bootstrap based theme
+[2] Scope your boostrap theme styles to "#wrapper"
+[3] Compile your boostrap theme "SASS / SCSS" to css
+[4] Use Liferay Tool Kit to generate a fragment collection
+[5] Copy your compiled css to your fragment collection -> resources
+[6] Create a fragment to add the style links to your page, and you can referance the files from your compiled styles which you have just copied by using [resource:<filename>]
+ 
