@@ -2,6 +2,8 @@
 
 This project has been created with generator-liferay-fragments, to demostrate how we can build a Liferay Theme from any bootstrap template.
 
+This will allow you to customize the look and feel of liferay without the need to build a theme module or deploying a war module.
+
 Steps:
 1. Develop your bootstrap based theme
 2. Scope your boostrap theme styles to "#wrapper"
